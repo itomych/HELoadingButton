@@ -1,0 +1,16 @@
+PODS:
+  - MMMaterialDesignSpinner (0.2.3)
+
+DEPENDENCIES:
+  - MMMaterialDesignSpinner (~> 0.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MMMaterialDesignSpinner
+
+SPEC CHECKSUMS:
+  MMMaterialDesignSpinner: 55c80b454f7928d0ed789cc3c456fa06bd6a2f16
+
+PODFILE CHECKSUM: 448dd32d135600f8941214b798d7b259143f3347
+
+COCOAPODS: 1.8.4

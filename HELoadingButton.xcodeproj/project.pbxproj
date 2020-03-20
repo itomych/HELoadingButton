@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098AF9201E6ECA6B00D9CD2B /* HELoadingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 098AF91F1E6ECA6B00D9CD2B /* HELoadingButton.m */; };
+		098AF9211E6ECA6C00D9CD2B /* HELoadingButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 098AF91E1E6ECA6B00D9CD2B /* HELoadingButton.h */; };
+		098AF92F1E6ECA9300D9CD2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 098AF92E1E6ECA9300D9CD2B /* main.m */; };
+		098AF9321E6ECA9300D9CD2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 098AF9311E6ECA9300D9CD2B /* AppDelegate.m */; };
+		098AF9351E6ECA9300D9CD2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 098AF9341E6ECA9300D9CD2B /* ViewController.m */; };
+		098AF9381E6ECA9300D9CD2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098AF9361E6ECA9300D9CD2B /* Main.storyboard */; };
+		098AF93A1E6ECA9300D9CD2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098AF9391E6ECA9300D9CD2B /* Assets.xcassets */; };
+		098AF93D1E6ECA9300D9CD2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098AF93B1E6ECA9300D9CD2B /* LaunchScreen.storyboard */; };
+		098AF9441E6ECAC100D9CD2B /* libHELoadingButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AF91B1E6ECA6B00D9CD2B /* libHELoadingButton.a */; };
+		09EF5AC51E93FF1500C97D36 /* HEMaterialDesignLoadingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EF5AC41E93FF1500C97D36 /* HEMaterialDesignLoadingButton.m */; };
+		BB631FB2DF35C0AF6433B574 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B18E89F36DF4A7D094634715 /* libPods-Example.a */; };
+		C10A7692CA718FC5B0AEA23C /* libPods-HELoadingButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A869E42C99813EF310AC5C /* libPods-HELoadingButton.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		098AF9421E6ECABC00D9CD2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 098AF9131E6ECA6B00D9CD2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 098AF91A1E6ECA6B00D9CD2B;
+			remoteInfo = HELoadingButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		098AF9191E6ECA6B00D9CD2B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				098AF9211E6ECA6C00D9CD2B /* HELoadingButton.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		095674251E730B27009CD789 /* HELoadingButton.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = HELoadingButton.podspec; sourceTree = "<group>"; };
+		098AF91B1E6ECA6B00D9CD2B /* libHELoadingButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHELoadingButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		098AF91E1E6ECA6B00D9CD2B /* HELoadingButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HELoadingButton.h; sourceTree = "<group>"; };
+		098AF91F1E6ECA6B00D9CD2B /* HELoadingButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HELoadingButton.m; sourceTree = "<group>"; };
+		098AF92B1E6ECA9300D9CD2B /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		098AF92E1E6ECA9300D9CD2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		098AF9301E6ECA9300D9CD2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		098AF9311E6ECA9300D9CD2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		098AF9331E6ECA9300D9CD2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		098AF9341E6ECA9300D9CD2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		098AF9371E6ECA9300D9CD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		098AF9391E6ECA9300D9CD2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		098AF93C1E6ECA9300D9CD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		098AF93E1E6ECA9300D9CD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09EF5AC31E93FF1500C97D36 /* HEMaterialDesignLoadingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEMaterialDesignLoadingButton.h; sourceTree = "<group>"; };
+		09EF5AC41E93FF1500C97D36 /* HEMaterialDesignLoadingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEMaterialDesignLoadingButton.m; sourceTree = "<group>"; };
+		0B6513CA011EE3A340E52731 /* Pods-HELoadingButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HELoadingButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-HELoadingButton/Pods-HELoadingButton.release.xcconfig"; sourceTree = "<group>"; };
+		1BA189F9B5FE22C5DC0BB66F /* Pods-HELoadingButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HELoadingButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HELoadingButton/Pods-HELoadingButton.debug.xcconfig"; sourceTree = "<group>"; };
+		4D60E9E0112E44BDDE85D286 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		74A38ADAA61E38AF253CCA89 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		B18E89F36DF4A7D094634715 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A869E42C99813EF310AC5C /* libPods-HELoadingButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HELoadingButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		098AF9181E6ECA6B00D9CD2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10A7692CA718FC5B0AEA23C /* libPods-HELoadingButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098AF9281E6ECA9300D9CD2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098AF9441E6ECAC100D9CD2B /* libHELoadingButton.a in Frameworks */,
+				BB631FB2DF35C0AF6433B574 /* libPods-Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098AF9121E6ECA6B00D9CD2B = {
+			isa = PBXGroup;
+			children = (
+				095674251E730B27009CD789 /* HELoadingButton.podspec */,
+				09EF5AC21E93FEF000C97D36 /* HEMaterialDesignLoadingButton */,
+				098AF91D1E6ECA6B00D9CD2B /* HELoadingButton */,
+				098AF92C1E6ECA9300D9CD2B /* Example */,
+				098AF91C1E6ECA6B00D9CD2B /* Products */,
+				94DE3A233554D48C154C017C /* Pods */,
+				B5C94FBBA4269E76D258DBF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		098AF91C1E6ECA6B00D9CD2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				098AF91B1E6ECA6B00D9CD2B /* libHELoadingButton.a */,
+				098AF92B1E6ECA9300D9CD2B /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		098AF91D1E6ECA6B00D9CD2B /* HELoadingButton */ = {
+			isa = PBXGroup;
+			children = (
+				098AF91E1E6ECA6B00D9CD2B /* HELoadingButton.h */,
+				098AF91F1E6ECA6B00D9CD2B /* HELoadingButton.m */,
+			);
+			path = HELoadingButton;
+			sourceTree = "<group>";
+		};
+		098AF92C1E6ECA9300D9CD2B /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				098AF9301E6ECA9300D9CD2B /* AppDelegate.h */,
+				098AF9311E6ECA9300D9CD2B /* AppDelegate.m */,
+				098AF9331E6ECA9300D9CD2B /* ViewController.h */,
+				098AF9341E6ECA9300D9CD2B /* ViewController.m */,
+				098AF9361E6ECA9300D9CD2B /* Main.storyboard */,
+				098AF9391E6ECA9300D9CD2B /* Assets.xcassets */,
+				098AF93B1E6ECA9300D9CD2B /* LaunchScreen.storyboard */,
+				098AF93E1E6ECA9300D9CD2B /* Info.plist */,
+				098AF92D1E6ECA9300D9CD2B /* Supporting Files */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		098AF92D1E6ECA9300D9CD2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				098AF92E1E6ECA9300D9CD2B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09EF5AC21E93FEF000C97D36 /* HEMaterialDesignLoadingButton */ = {
+			isa = PBXGroup;
+			children = (
+				09EF5AC31E93FF1500C97D36 /* HEMaterialDesignLoadingButton.h */,
+				09EF5AC41E93FF1500C97D36 /* HEMaterialDesignLoadingButton.m */,
+			);
+			path = HEMaterialDesignLoadingButton;
+			sourceTree = "<group>";
+		};
+		94DE3A233554D48C154C017C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D60E9E0112E44BDDE85D286 /* Pods-Example.debug.xcconfig */,
+				74A38ADAA61E38AF253CCA89 /* Pods-Example.release.xcconfig */,
+				1BA189F9B5FE22C5DC0BB66F /* Pods-HELoadingButton.debug.xcconfig */,
+				0B6513CA011EE3A340E52731 /* Pods-HELoadingButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5C94FBBA4269E76D258DBF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B18E89F36DF4A7D094634715 /* libPods-Example.a */,
+				F8A869E42C99813EF310AC5C /* libPods-HELoadingButton.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		098AF91A1E6ECA6B00D9CD2B /* HELoadingButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098AF9241E6ECA6C00D9CD2B /* Build configuration list for PBXNativeTarget "HELoadingButton" */;
+			buildPhases = (
+				03C4BBA1117E2FAC8BD80577 /* [CP] Check Pods Manifest.lock */,
+				098AF9171E6ECA6B00D9CD2B /* Sources */,
+				098AF9181E6ECA6B00D9CD2B /* Frameworks */,
+				098AF9191E6ECA6B00D9CD2B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HELoadingButton;
+			productName = HELoadingButton;
+			productReference = 098AF91B1E6ECA6B00D9CD2B /* libHELoadingButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		098AF92A1E6ECA9300D9CD2B /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098AF93F1E6ECA9300D9CD2B /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				00938C8A229721C430069AA6 /* [CP] Check Pods Manifest.lock */,
+				098AF9271E6ECA9300D9CD2B /* Sources */,
+				098AF9281E6ECA9300D9CD2B /* Frameworks */,
+				098AF9291E6ECA9300D9CD2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				098AF9431E6ECABC00D9CD2B /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 098AF92B1E6ECA9300D9CD2B /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		098AF9131E6ECA6B00D9CD2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "How Else";
+				TargetAttributes = {
+					098AF91A1E6ECA6B00D9CD2B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					098AF92A1E6ECA9300D9CD2B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2WB486963M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 098AF9161E6ECA6B00D9CD2B /* Build configuration list for PBXProject "HELoadingButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 098AF9121E6ECA6B00D9CD2B;
+			productRefGroup = 098AF91C1E6ECA6B00D9CD2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				098AF91A1E6ECA6B00D9CD2B /* HELoadingButton */,
+				098AF92A1E6ECA9300D9CD2B /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		098AF9291E6ECA9300D9CD2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098AF93D1E6ECA9300D9CD2B /* LaunchScreen.storyboard in Resources */,
+				098AF93A1E6ECA9300D9CD2B /* Assets.xcassets in Resources */,
+				098AF9381E6ECA9300D9CD2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00938C8A229721C430069AA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		03C4BBA1117E2FAC8BD80577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HELoadingButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		098AF9171E6ECA6B00D9CD2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EF5AC51E93FF1500C97D36 /* HEMaterialDesignLoadingButton.m in Sources */,
+				098AF9201E6ECA6B00D9CD2B /* HELoadingButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098AF9271E6ECA9300D9CD2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098AF9351E6ECA9300D9CD2B /* ViewController.m in Sources */,
+				098AF9321E6ECA9300D9CD2B /* AppDelegate.m in Sources */,
+				098AF92F1E6ECA9300D9CD2B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		098AF9431E6ECABC00D9CD2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 098AF91A1E6ECA6B00D9CD2B /* HELoadingButton */;
+			targetProxy = 098AF9421E6ECABC00D9CD2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		098AF9361E6ECA9300D9CD2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				098AF9371E6ECA9300D9CD2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		098AF93B1E6ECA9300D9CD2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				098AF93C1E6ECA9300D9CD2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		098AF9221E6ECA6C00D9CD2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		098AF9231E6ECA6C00D9CD2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		098AF9251E6ECA6C00D9CD2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA189F9B5FE22C5DC0BB66F /* Pods-HELoadingButton.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		098AF9261E6ECA6C00D9CD2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6513CA011EE3A340E52731 /* Pods-HELoadingButton.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		098AF9401E6ECA9300D9CD2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D60E9E0112E44BDDE85D286 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2WB486963M;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.howelse.HELoadingButton.anna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		098AF9411E6ECA9300D9CD2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A38ADAA61E38AF253CCA89 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2WB486963M;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.howelse.HELoadingButton.anna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		098AF9161E6ECA6B00D9CD2B /* Build configuration list for PBXProject "HELoadingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098AF9221E6ECA6C00D9CD2B /* Debug */,
+				098AF9231E6ECA6C00D9CD2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		098AF9241E6ECA6C00D9CD2B /* Build configuration list for PBXNativeTarget "HELoadingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098AF9251E6ECA6C00D9CD2B /* Debug */,
+				098AF9261E6ECA6C00D9CD2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		098AF93F1E6ECA9300D9CD2B /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098AF9401E6ECA9300D9CD2B /* Debug */,
+				098AF9411E6ECA9300D9CD2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 098AF9131E6ECA6B00D9CD2B /* Project object */;
+}
